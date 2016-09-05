@@ -41,7 +41,8 @@
  */
 
 define([
-    'common/main/lib/view/DocumentAccessDialog'
+    'common/main/lib/view/DocumentAccessDialog',
+    'sdk'
 ], function () {
     'use strict';
 

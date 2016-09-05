@@ -42,7 +42,8 @@
 
 define([
     'common/main/lib/view/DocumentAccessDialog',
-    'common/main/lib/component/CheckBox'
+    'common/main/lib/component/CheckBox',
+    'sdk'
 ], function () {
     'use strict';
 

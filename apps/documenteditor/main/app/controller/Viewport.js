@@ -45,7 +45,8 @@ define([
     'core',
     'common/main/lib/view/Header',
     'documenteditor/main/app/view/Viewport',
-    'documenteditor/main/app/view/LeftMenu'
+    'documenteditor/main/app/view/LeftMenu',
+    'sdk'
 ], function (Viewport) {
     'use strict';
 

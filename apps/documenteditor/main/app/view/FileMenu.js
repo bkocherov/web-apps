@@ -43,7 +43,8 @@
 define([
     'text!documenteditor/main/app/template/FileMenu.template',
     'underscore',
-    'common/main/lib/component/BaseView'
+    'common/main/lib/component/BaseView',
+    'documenteditor/main/app/view/FileMenuPanels'
 ], function (tpl, _) {
     'use strict';
 

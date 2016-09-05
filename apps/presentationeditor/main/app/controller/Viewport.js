@@ -44,7 +44,8 @@ define([
     'core',
     'common/main/lib/view/Header',
     'presentationeditor/main/app/view/DocumentPreview',
-    'presentationeditor/main/app/view/Viewport'
+    'presentationeditor/main/app/view/Viewport',
+    'sdk'
 //    'documenteditor/main/app/view/LeftMenu'
 ], function (Viewport) {
     'use strict';
