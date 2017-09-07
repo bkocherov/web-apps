@@ -1,0 +1,65 @@
+{
+  "name": "erp5_officejs_onlyoffice_webapps_main",
+  "description": "web-apps-main - desktop version frontend OnlyOffice's project.",
+  "authors": [
+    "Ascensio System SIA 2017"
+  ],
+  "license": "GNU AGPL v3.0",
+  "dependencies": [
+    "erp5_officejs",
+    "erp5_officejs_onlyoffice_sdkjs"
+  ],
+  "scopes": [
+    {
+      "prefix": "onlyoffice/web-apps/",
+      "paths": [
+        "apps/css.js",
+        "apps/promise.js",
+        "apps/sdk_async_loader.js",
+        "apps/window.js",
+        "apps/common/Analytics.js",
+        "apps/common/IrregularStack.js",
+        "apps/common/locale.js",
+        "apps/common/main/lib/",
+        "apps/documenteditor/main/app/",
+        "apps/documenteditor/main/locale/",
+        "apps/presentationeditor/main/app/",
+        "apps/presentationeditor/main/locale/",
+        "apps/spreadsheeteditor/main/app/",
+        "apps/spreadsheeteditor/main/locale/",
+        "apps/spreadsheeteditor/main/resources/formula-lang/",
+        "vendor/backbone/backbone.js",
+        "vendor/bootstrap/dist/js/bootstrap.js",
+        "vendor/jquery/jquery.js",
+        "vendor/jsrsasign/jsrsasign-latest-all-min.js",
+        "vendor/jszip-utils/jszip-utils.min.js",
+        "vendor/perfect-scrollbar/src/jquery.mousewheel.js",
+        "vendor/requirejs-text/text.js",
+        "vendor/requirejs/require.js",
+        "vendor/sockjs/sockjs.min.js",
+        "vendor/underscore/underscore.js",
+        "vendor/xregexp/xregexp-all-min.js",
+        "vendor/xmla4js/Xmla-compiled.js"
+      ]
+    },
+    {
+      "prefix": "onlyoffice/",
+      "delete_path_part": "deploy/",
+      "paths": [
+        "deploy/web-apps/apps/common/main/resources/img/",
+        "deploy/web-apps/apps/documenteditor/main/resources/css/",
+        "deploy/web-apps/apps/documenteditor/main/resources/img/",
+        "deploy/web-apps/apps/presentationeditor/main/resources/css/",
+        "deploy/web-apps/apps/presentationeditor/main/resources/img/",
+        "deploy/web-apps/apps/spreadsheeteditor/main/resources/css/",
+        "deploy/web-apps/apps/spreadsheeteditor/main/resources/img/"
+      ]
+    },
+    {
+      "id_prefix": "onlyoffice_",
+      "paths": [
+        "gadget_onlyoffice."
+      ]
+    }
+  ]
+}
