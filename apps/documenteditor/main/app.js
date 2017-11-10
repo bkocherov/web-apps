@@ -43,7 +43,7 @@ var reqerr;
 require.config({
     // The shim config allows us to configure dependencies for
     // scripts that do not call define() to register a module
-    baseUrl: '../../',
+    baseUrl: Common.Gateway.props.base_url + 'web-apps/apps/',
     paths: {
         jquery          : '../vendor/jquery/jquery',
         underscore      : '../vendor/underscore/underscore',
@@ -56,7 +56,7 @@ require.config({
         sockjs          : '../vendor/sockjs/sockjs.min',
         jszip           : '../vendor/jszip/jszip.min',
         jsziputils      : '../vendor/jszip-utils/jszip-utils.min',
-        allfonts        : '../../sdkjs/common/AllFonts',
+        allfonts        : '../../../onlyoffice/fonts/AllFonts',
         sdk             : '../../sdkjs/word/sdk-all-min',
         api             : 'api/documents/api',
         core            : 'common/main/lib/core/application',
@@ -135,7 +135,8 @@ require([
     'api',
     'analytics',
     'gateway',
-    'locale'
+    'locale',
+    'css!documenteditor/main/resources/css/app.css'
 ], function (Backbone, Bootstrap, Core) {
     Backbone.history.start();
 
