@@ -108,9 +108,9 @@
             },
             "vars": {
                 "app-image-const-path": "'../img'",
-                "common-image-const-path": "'../img'",
+                "common-image-const-path": "'../../../../common/main/resources/img'",
                 "app-image-path": "'../../../../../deploy/web-apps/apps/presentationeditor/main/resources/img'",
-                "common-image-path": "'../../../../../deploy/web-apps/apps/presentationeditor/main/resources/img'"
+                "common-image-path": "'../../../../../deploy/web-apps/apps/common/main/resources/img'"
             }
         },
         "imagemin": {
@@ -131,7 +131,7 @@
                     "src": [
                         "**/*.{png,jpg,gif}"
                     ],
-                    "dest": "../deploy/web-apps/apps/presentationeditor/main/resources/img/"
+                    "dest": "../deploy/web-apps/apps/common/main/resources/img/"
                 }
             ]
         },
