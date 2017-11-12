@@ -54,6 +54,8 @@ require.config({
         jmousewheel     : '../vendor/perfect-scrollbar/src/jquery.mousewheel',
         xregexp         : '../vendor/xregexp/xregexp-all-min',
         sockjs          : '../vendor/sockjs/sockjs.min',
+        Xmla            : '../vendor/xmla4js/Xmla-compiled',
+        RSVP            : '../vendor/rsvp/rsvp.min',
         jszip           : '../vendor/jszip/jszip.min',
         jsziputils      : '../vendor/jszip-utils/jszip-utils.min',
         jsrsasign       : '../vendor/jsrsasign/jsrsasign-latest-all-min',
@@ -110,6 +112,8 @@ require.config({
                 'allfonts',
                 'xregexp',
                 'sockjs',
+                'window!Xmla',
+                'RSVP',
                 'jszip',
                 'jsziputils'
             ]
